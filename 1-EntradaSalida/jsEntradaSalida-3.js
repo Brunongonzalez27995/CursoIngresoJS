@@ -2,7 +2,8 @@
 y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
-	
+	nombre=document.getElementById('elNombre');
+	alert("Su nombre es "+nombre);
 }
 
 

@@ -1,5 +1,8 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'mostrar'.
 function mostrar()
 {
-	alert("Ésto funciona de maravilla");
+	//var nombre = prompt ("hola","n n ");
+	//alert(nombre);
+	alert("Esto funciona de maravilla");
+}
 
