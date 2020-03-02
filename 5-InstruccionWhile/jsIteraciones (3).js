@@ -1,13 +1,11 @@
 function mostrar()
 {
-
-	var clave=prompt("ingrese el número clave.");
-	
+	var clave;
 	while(clave!="utn750")
-	{
-		clave=prompt("ingrese el número clave.");
+	{		
+		clave=prompt("Ingrese la clave");	
 	}
-	alert("Contraseña correcta");
-
+	alert("Clave correcta");
+	
 
 }//FIN DE LA FUNCIÓN
