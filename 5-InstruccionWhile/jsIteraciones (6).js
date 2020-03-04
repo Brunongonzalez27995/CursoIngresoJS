@@ -3,12 +3,15 @@ function mostrar()
 
 	var contador=0;
 	var acumulador=0;
-	contador=parseInt(contador);
-	switch(acumulador<5)
-	{
-		contador=contador+1;
-		contador=parseInt(contador);
-		acumulador=contador;
+	var numero=0;
+
+	while(contador<6)
+	{		
+		numero=prompt("Ingrese el "+contador+"º numero");
+		numero=parseInt(numero);
+		contador++;
+		acumulador=parseInt(acumulador);
+		acumulador=acumulador+numero;
 	}
 
 document.getElementById('suma').value=acumulador;
